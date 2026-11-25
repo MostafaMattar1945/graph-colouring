@@ -1,0 +1,12 @@
+# 7-course exam schedule (χ = 3)
+A B
+A C
+A D
+B C
+B E
+C D
+C E
+D F
+E F
+E G
+F G
