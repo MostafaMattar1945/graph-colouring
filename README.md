@@ -52,7 +52,7 @@ src/ga_operators.py   Genetic Algorithm operators (M3)
 src/ga.py             Genetic Algorithm solver (M3)
 data/                 example graphs: .txt, .csv, DIMACS .col
 tests/                pytest suites
-tests/test_ga_operators.py   GA operators tests
+tests/test_ga_operators.py  GA operators tests
 tests/test_ga.py            GA solver tests
 run_demo.py           quick M1 and M3 check
 ```
