@@ -26,7 +26,7 @@ pip install -r requirements.txt
 Run everything from the project root.
 
 ```bash
-python run_demo.py        # presets, bounds and file parsers sanity check
+python run_demo.py        # presets, bounds, file parsers and Genetic Algorithm demo
 python -m pytest -q       # unit tests
 # streamlit run app.py    # will work once M5 adds app.py
 ```
@@ -48,9 +48,13 @@ different `Graph` and `GraphError` classes.
 ```
 src/common.py         Colouring, GAParams, Result (the Interface Contract)
 src/graph_model.py    Graph, parsers, random_graph, bounds, presets
+src/ga_operators.py   Genetic Algorithm operators (M3)
+src/ga.py             Genetic Algorithm solver (M3)
 data/                 example graphs: .txt, .csv, DIMACS .col
 tests/                pytest suites
-run_demo.py           quick M1 check
+tests/test_ga_operators.py   GA operators tests
+tests/test_ga.py            GA solver tests
+run_demo.py           quick M1 and M3 check
 ```
 
 ## Graph API (M1)
