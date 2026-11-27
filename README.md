@@ -8,7 +8,7 @@ Backtracking, Genetic Algorithm and Memetic Algorithm for graph colouring (Pytho
 |------|-------|-------|
 | Shared contract (`common.py`) and graph model (`graph_model.py`) | M1 | done |
 | Backtracking solver | M2 | not in the repo yet |
-| Genetic Algorithm + operators | M3 | not in the repo yet |
+| Genetic Algorithm + operators | M3 | done |
 | Memetic Algorithm + local search | M4 | not in the repo yet |
 | UI (`app.py`, Streamlit) | M5 | not in the repo yet |
 | Metrics, benchmark, integration tests | M6 | not in the repo yet |
